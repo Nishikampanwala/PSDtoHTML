@@ -1,0 +1,96 @@
+body{
+    font-family: "Exo";
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/*-----------------Banner----------*/
+.banner-text{
+    position: absolute;
+    top: 11vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    line-height: 7.5vh;
+    color: #282828;
+    font-weight: 200;
+    font-family: "Exo";
+    text-align: center;
+}
+.banner-btn{
+    position: absolute;
+    top: 22vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #ff6d6d;
+    color: white;
+    padding: 1vw 5vw 1vw 5vw;
+    border-color: #ff6d6d;
+}
+.banner-subtext{
+    position: absolute;
+    top: 26vw;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 75px;
+    color: #282828;
+    font-weight: 400;
+    text-align: center;
+}
+/*-----------------Banner----------*/
+/*-----------Design-----------*/
+.description{
+    background-color: white;
+    height: 800px; 
+    padding: 150px 180px 150px 180px;
+}
+@media screen and (max-width: 600px) {
+    div.description {
+      padding: 20px 30px 20px 30px;
+    }
+  }
+.new-design{
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    color: #ff6d6d;
+    font-weight: 500;
+    
+}
+
+.tag-line{
+    font-size:40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #282828;
+    font-weight: 500;
+}
+.paragraph{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #282828;
+    font-weight: 400;
+}
+@media screen and (max-width: 600px) {
+    div.image-side {
+        display: block;
+    }
+  }
+.image-side{
+    background-color: #ececec;
+    height: 800px; 
+    overflow: hidden;
+}
+.rectangle-image{
+    height: 1600px;
+}
